@@ -1,0 +1,157 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.88rem;
+    background-color: #f6f6f6;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+.container{
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
+}
+
+a{
+    color: black;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+h2{
+    font-weight: 800;
+}
+
+h3{
+    font-size: 0.87rem;
+}
+
+.text-muted{
+    color: #7d8da1;
+}
+
+.primary{
+    color: #7380c7;
+}
+
+.danger{
+    color: #ff7782;
+}
+
+aside{
+    height: 100vh;
+    background: white;
+}
+
+aside .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+    padding: 0 1rem;
+}
+
+aside .logo{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+aside .logo img{
+    width: 2rem;
+    height: 2rem;
+}
+
+aside .close{
+    display: none;
+}
+
+aside .sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+    top: 3rem;
+}
+
+aside .sidebar a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 3.7rem;
+    margin-left: 2rem;
+    color: #7d8da1;
+    position: relative;
+    transition: color 300ms ease, background 300ms ease, margin 300ms ease;
+}
+
+aside .sidebar a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    background: #7380ec;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: opacity 300ms ease, transform 300ms ease;
+}
+
+aside .sidebar a i{
+    font-size: 1.6rem;
+    transition: color 300ms ease, transform 300ms ease;
+}
+
+aside .sidebar a.active{
+    background: #f6f6f6;
+    color: #7380ec;
+    margin-left: 0;
+    padding-left: 2rem;
+}
+
+aside .sidebar a.active::before{
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+aside .sidebar a.active i{
+    color: #7380ec;
+    transform: translateX(6px);
+}
+
+aside .sidebar a:hover{
+    color: #7380ec;
+    margin-left: 1.5rem;
+}
+
+aside .sidebar a:hover i{
+    color: #7380ec;
+    transform: translateX(8px);
+}
+
+aside .sidebar a:last-child{
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+}
