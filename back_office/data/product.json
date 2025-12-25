@@ -1,0 +1,12 @@
+[
+    { "productName": "Foldable Mini Drone", "productNumber": "B34982", "payment": "Due", "status": "Pending" },
+    { "productName": "Gaming Headset", "productNumber": "C58291", "payment": "Paid", "status": "Delivered" },
+    { "productName": "Smart Watch", "productNumber": "D19203", "payment": "Refund", "status": "Declined" },
+    { "productName": "Wireless Mouse", "productNumber": "E48201", "payment": "Paid", "status": "Delivered" },
+    { "productName": "Mechanical Keyboard", "productNumber": "F72019", "payment": "Due", "status": "Pending" },
+    { "productName": "Bluetooth Speaker", "productNumber": "G15492", "payment": "Paid", "status": "Delivered" },
+    { "productName": "HD Webcam", "productNumber": "H93821", "payment": "Refund", "status": "Declined" },
+    { "productName": "Gaming Chair", "productNumber": "I47289", "payment": "Due", "status": "Pending" },
+    { "productName": "VR Headset", "productNumber": "J81243", "payment": "Paid", "status": "Delivered" },
+    { "productName": "External SSD", "productNumber": "K57302", "payment": "Paid", "status": "Delivered" }
+]
